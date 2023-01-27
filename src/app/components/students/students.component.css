@@ -2,3 +2,13 @@
   text-align: center;
   color: #fff;
 }
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.list {
+  color: #fff;
+  display: inline-block;
+}

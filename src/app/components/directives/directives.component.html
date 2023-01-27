@@ -1,5 +1,12 @@
-<h1> Directivas</h1>
-
-<ul>
-  <li *ngFor="let student of studentList" [ngClass]="student.grade > 10 ? 'desaprobado': 'aprobado'"> {{ student.name }} </li>
+<ul class="list">
+  <li class="element" *ngFor="let student of studentList"> 
+    {{student.id}}. 
+    Nombre: {{ student.name }} - 
+    Promedio:
+    <span [ngClass]="student.grade < 10 ? 'desaprobado': 'aprobado'">
+     {{ student.grade }} 
+    </span> -
+    Edad: {{ student.age }}  - 
+    Correo: {{ student.email }}  
+  </li>
 </ul>

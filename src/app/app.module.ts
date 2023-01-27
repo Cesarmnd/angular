@@ -6,7 +6,6 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { StudentsComponent } from './components/students/students.component';
 import { DirectivesComponent } from './components/directives/directives.component';
-import { PersonalizedDirDirective } from './directives/personalized-dir.directive';
 
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import { PersonalizedDirDirective } from './directives/personalized-dir.directiv
     ToolbarComponent,
     NavbarComponent,
     StudentsComponent,
-    DirectivesComponent,
-    PersonalizedDirDirective
+    DirectivesComponent
   ],
   imports: [
     BrowserModule

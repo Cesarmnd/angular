@@ -5,3 +5,13 @@
 .aprobado {
   color: white;
 }
+
+.list {
+  list-style: none;
+  text-align: left;
+}
+
+.element  {
+  font-size: 20px;
+  margin: 15px;
+}
