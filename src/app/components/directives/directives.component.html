@@ -1,12 +1,13 @@
 <ul class="list">
   <li class="element" *ngFor="let student of studentList"> 
     {{student.id}}. 
-    Nombre: {{ student.name }} - 
+    Nombre: {{ student.name }}  - 
     Promedio:
     <span [ngClass]="student.grade < 10 ? 'desaprobado': 'aprobado'">
      {{ student.grade }} 
     </span> -
-    Edad: {{ student.age }}  - 
-    Correo: {{ student.email }}  
+    Edad: {{ student.age }} - 
+    Correo: {{ student.email }}     
+    <button class="btn" *ngIf=" student.grade < 10">Expulsar</button>
   </li>
 </ul>
