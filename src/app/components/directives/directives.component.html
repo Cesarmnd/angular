@@ -1,0 +1,5 @@
+<h1> Directivas</h1>
+
+<ul>
+  <li *ngFor="let student of studentList" [ngClass]="student.grade > 10 ? 'desaprobado': 'aprobado'"> {{ student.name }} </li>
+</ul>

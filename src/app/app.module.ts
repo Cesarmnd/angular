@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { StudentsComponent } from './components/students/students.component';
+import { DirectivesComponent } from './components/directives/directives.component';
+import { PersonalizedDirDirective } from './directives/personalized-dir.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     NavbarComponent,
-    StudentsComponent
+    StudentsComponent,
+    DirectivesComponent,
+    PersonalizedDirDirective
   ],
   imports: [
     BrowserModule
