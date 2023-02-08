@@ -1,0 +1,49 @@
+.form {
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 120px;
+}
+.input-container {
+display: flex;
+}
+
+label {
+  color: #fff;
+  width: 150px;
+}
+
+input {
+  width: 35%;
+}
+
+.checkbox {
+  width: 15px;
+}
+
+.check-label {
+  width: 50%;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.valid {
+  color: green;
+  padding: 5px 20px;
+}
+
+.invalid {
+  color: red;
+  padding: 5px;
+}
+
+/* Removing arrows form number inputs */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

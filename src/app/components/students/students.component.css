@@ -4,11 +4,16 @@
 }
 
 .container {
-  width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
 }
 
 .list {
   color: #fff;
   display: inline-block;
+}
+.form {
+  width: 100%;
+  margin: 0 auto;
 }

@@ -6,6 +6,8 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { StudentsComponent } from './components/students/students.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { FormComponent } from './components/form/form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,13 @@ import { DirectivesComponent } from './components/directives/directives.componen
     ToolbarComponent,
     NavbarComponent,
     StudentsComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    FormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
